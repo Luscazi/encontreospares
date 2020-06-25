@@ -4,6 +4,17 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+i {
+  color: rgb(33, 46, 48);
+}
+
+p {
+  color: #2c2c2c;
+}
+
+span {
   color: #eee;
 }
 
@@ -19,10 +30,10 @@ body {
   /* Background pattern from Subtle Patterns */
   font-family: 'Coda', cursive;
   background: rgb(177,108,206);
-background: -moz-linear-gradient(315deg, rgba(177,108,206,1) 0%, rgba(0,255,247,1) 100%);
-background: -webkit-linear-gradient(315deg, rgba(177,108,206,1) 0%, rgba(0,255,247,1) 100%);
-background: linear-gradient(315deg, rgba(177,108,206,1) 0%, rgba(0,255,247,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b16cce",endColorstr="#00fff7",GradientType=1);
+  background: -moz-linear-gradient(315deg, rgba(177,108,206,1) 0%, rgba(0,255,247,1) 100%);
+  background: -webkit-linear-gradient(315deg, rgba(177,108,206,1) 0%, rgba(0,255,247,1) 100%);
+  background: linear-gradient(315deg, rgba(177,108,206,1) 0%, rgba(0,255,247,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b16cce",endColorstr="#00fff7",GradientType=1);
 }
 
 .text-center {
