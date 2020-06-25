@@ -87,15 +87,15 @@ $(document).ready(function(){
   // updates grade with every move
   function updateGrade() {
     if(moves > 12) {
-      if(grade !== "Average") {
-        grade = "Average";
+      if(grade !== "Média") {
+        grade = "Média";
         gradeSpan.innerText = grade;
         starsList.removeChild(starsList.children[0]);
       }
     }
     if(moves > 24) {
-      if(grade !== "Poor...") {
-        grade = "Poor...";
+      if(grade !== "Ruim...") {
+        grade = "Ruim...";
         gradeSpan.innerText = grade;
         starsList.removeChild(starsList.children[0]);
       }
@@ -140,7 +140,7 @@ $(document).ready(function(){
           updateGrade();
 
           if (thisCard === lastCard) {
-            let message = 'match found!';
+            let message = 'Combinação encontrada!';
             console.log(message);
             flash_msg(message);
             card.classList.add('match');
@@ -154,7 +154,7 @@ $(document).ready(function(){
             }
           }
           else {
-            let message = 'no match.';
+            let message = 'Tente novamente';
             console.log(message);
             flash_msg(message);
             pause = true;
@@ -204,9 +204,9 @@ $(document).ready(function(){
 
   function info() {
     alert('Grading System: \n\n\
-    0-12 Moves = Great! \n\
-    13-24 Moves = Average \n\
-    25+ Moves = Poor...  \
+    0-12 Moves = Ótimo! \n\
+    13-24 Moves = Médio \n\
+    25+ Moves = Ruim...  \
     ');
   }
 
@@ -214,7 +214,7 @@ $(document).ready(function(){
     generateCards();
     activateCards();
     flash_cards();
-    console.log('game started.');
+    console.log('O Jogo Começou.');
   }
 
   /* sets the info in the modal */
@@ -242,7 +242,7 @@ $(document).ready(function(){
 
     // reset game state
     moves = 0;
-    grade = 'Great!';
+    grade = 'ótimo!';
     isGameOver = false;
     matches = [];
     lastFlipped = null;
@@ -258,8 +258,8 @@ $(document).ready(function(){
     movesText.innerText = moves;
     timeText.innerText = watch.getTimeString();
 
-    flash_msg('New Game!');
-    console.log('game re-started.');
+    flash_msg('Novo jogo!');
+    console.log('game reiniciou.');
   }
 
   function flash_msg(message) {
