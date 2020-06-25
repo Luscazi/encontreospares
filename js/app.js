@@ -41,7 +41,7 @@ $(document).ready(function(){
   let modal_reset_btn = document.getElementById('modal_reset_btn');
 
   let moves = 0;
-  let grade = 'Great!';
+  let grade = 'Ótimo';
 
   let isGameOver = false;
   let didGameStart = false;

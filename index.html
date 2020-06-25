@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-  <title>Matching Game</title>
+  <title>Jogo Da Memória</title>
   <meta charset="utf-8">
   <meta name="description" content="Matching Game">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="https://ryanwaite28.github.io/script-store/js/stop-watch.js"></script>
+  <script src="js/stop-watch.js"></script>
   <script src="js/app.js"></script>
 </head>
 
@@ -25,8 +25,8 @@
 
   <div class="middle-box">
     <header>
-      <h4 class="text-center">Matching Game</h4>
-      <p class="text-center"><a title="GitHub Project Page" href="https://github.com/ryanwaite28/udacity-memory-game">GitHub</a></p>
+      <h4 class="text-center">Jogo Da Memória</h4>
+      <p class="text-center"><a title="GitHub Project Page" href="https://github.com/Luscazi/jogodamemoria">GitHub</a></p>
     </header>
 
     <section class="score-panel">
@@ -38,7 +38,7 @@
       <span id="grade" class="moves"></span>
 
       <span style="margin: 0px 20px;">
-        <strong><span id="moves-text"></span></strong> Moves
+        <strong><span id="moves-text"></span></strong> Movimentos
       </span>
 
       <span style="margin: 0px 20px;">
@@ -50,10 +50,10 @@
       </span>
 
       <div id="info-btn" class="hint">
-        <span><i class="fa fa-info"></i> Info</span>
+        <span><i class="fa fa-info"></i> Informações</span>
       </div>
       <div id="reset-btn" class="restart">
-        <span><i class="fa fa-repeat"></i> Reset</span>
+        <span><i class="fa fa-repeat"></i> Reiniciar</span>
       </div>
     </section>
 
@@ -64,16 +64,16 @@
 
   <div id="game_modal" class="modal">
     <div class="modal-content">
-      <h4>Congrats!</h4>
-      <h5>Game Results</h5>
+      <h4>Parabéns!</h4>
+      <h5>Resultado</h5>
 
-      <p><strong>Time:</strong> <span id="time_results"></span></p>
-      <p><strong>Moves:</strong> <span id="moves_results"></span></p>
-      <p><strong>Grade:</strong> <span id="grade_results"></span></p>
+      <p><strong>Horário:</strong> <span id="time_results"></span></p>
+      <p><strong>Movimentos:</strong> <span id="moves_results"></span></p>
+      <p><strong>Nota:</strong> <span id="grade_results"></span></p>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat" id="modal_reset_btn">Replay</a>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat" id="modal_reset_btn">Reiniciar</a>
     </div>
   </div>
 
