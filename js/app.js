@@ -203,10 +203,10 @@ $(document).ready(function(){
   }
 
   function info() {
-    alert('Grading System: \n\n\
-    0-12 Moves = Ótimo! \n\
-    13-24 Moves = Médio \n\
-    25+ Moves = Ruim...  \
+    alert('Sistema de classificação: \n\n\
+    0-12 Movimentos = Ótimo! \n\
+    13-24 Movimentos = Médio \n\
+    25+ Movimentos = Ruim...  \
     ');
   }
 
