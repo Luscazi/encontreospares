@@ -1,0 +1,22 @@
+<svg id="Fr" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 600px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+        text-anchor: middle;
+        font-family: "Zurich Cn BT";
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 320px;
+      }
+    </style>
+  </defs>
+  <text id="Fr-2" data-name="Fr" class="cls-1" x="538.837" y="821.268"><tspan x="538.837">Fr</tspan></text>
+  <text id="_87" data-name="87" class="cls-2" x="259.837" y="350.268"><tspan x="259.837">87</tspan></text>
+</svg>

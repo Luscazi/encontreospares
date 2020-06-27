@@ -1,0 +1,27 @@
+<svg id="Li" xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 600px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+        text-anchor: middle;
+        font-family: "Zurich Cn BT";
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 320px;
+      }
+
+      .cls-3 {
+        font-size: 120px;
+      }
+    </style>
+  </defs>
+  <text id="Li-2" data-name="Li" class="cls-1" x="499.837" y="821.268"><tspan x="499.837">Li</tspan></text>
+  <text id="_3" data-name="3" class="cls-2" x="183.837" y="345.268"><tspan x="183.837">3</tspan></text>
+  <text id="_6_94" data-name="6,94" class="cls-3" x="497.837" y="979.268"><tspan x="497.837">6,94</tspan></text>
+</svg>
