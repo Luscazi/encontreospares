@@ -131,7 +131,7 @@ function startGame() {
 function gameWonParty(moves) {
 	const audio = new Audio('sounds/magic.mp3');
 	audio.play();
-	// alert(`You Won with just ${moves} moves !`);
+	alert(`Você ganhou com apenas ${moves} movimentos !`);
 	//NOTE: make a fancy celebration with canvas
 }
 
