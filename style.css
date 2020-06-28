@@ -75,6 +75,14 @@ body::after {
   font-family: 'Orbitron', sans-serif;
 }
 
+.tabbar3 {
+  height: auto;
+  position: relative;
+  color: white;
+  padding: 1px;
+  font-family: 'Orbitron', sans-serif;
+}
+
 .tabbar > div {
   padding-left: 10px;
   position: absolute;
