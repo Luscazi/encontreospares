@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'ZURCHBC';
-  src: url('fonts/ZURCHBC.TTF') /*Para os demais navegadores*/;
-  font-weight: bold;
-  font-style: normal;
-}
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -24,9 +17,17 @@ body {
   background: linear-gradient(-270deg, rgba(4,191,212,0.9) 0%, rgba(117,8,161,0.9) 100%);
 }
 
+.elm {
+  color: #eee;
+  font-family: 'Roboto' , sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+
 body::after {
   content: '';
-  background: url('/img/bg.svg');
+  background: url('img/bg.png');
   opacity: 0.1;
   top: 0;
   left: 0;
@@ -44,14 +45,6 @@ body::after {
     -webkit-transform: rotate(8deg);
   }
 }
-
-.elm {
-  color: #eee;
-  font-family: 'Roboto' , sans-serif;
-  height: 100%;
-  width: 100%;
-}
-
 .carbon {
   background: #2a334c;
   border-radius: 4px;
