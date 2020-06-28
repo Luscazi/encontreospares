@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'ZURCHBC';
+  src: url('fonts/ZURCHBC.TTF') /*Para os demais navegadores*/;
+  font-weight: bold;
+  font-style: normal;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -37,6 +44,14 @@ body::after {
     -webkit-transform: rotate(8deg);
   }
 }
+
+.elm {
+  color: #eee;
+  font-family: 'Roboto' , sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
 .carbon {
   background: #2a334c;
   border-radius: 4px;
