@@ -1,186 +1,117 @@
 <!DOCTYPE html>
-<html lang="pt-br" >
+<html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Encontre os pares</title>
-  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-	crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Orbitron:500,900" rel="stylesheet"><link rel="stylesheet" href="./style.css">
-	<link rel="shortcut icon" href="img/favicon.ico" />
-</head>
-<body>
+	<meta charset="UTF-8">
+	<title>Encontre os pares</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Orbitron:500,900" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="shortcut icon" href="img/favicon.ico" /> </head>
 
 <body>
-	<!-- Estilo inspirado por CARBON => https://www.carbon.now.sh -->
-	<div class="carbon">
-		<div class="panel">
-			<div class="panel__one circle"></div>
-			<div class="panel__two circle"></div>
-			<div class="panel__three circle">
-				<!--<input type="checkbox" class="toggler3"> -->
+
+	<body>
+		<!-- Estilo inspirado por CARBON => https://www.carbon.now.sh -->
+		<div class="carbon">
+			<div class="panel">
+				<div class="panel__one circle"></div>
+				<div class="panel__two circle"></div>
+				<div class="panel__three circle">
+					<!--<input type="checkbox" class="toggler3"> -->
+				</div>
+			</div>
+			<!-- end of panel -->
+			<div class="container">
+				<div class="box box1">
+					<div class="box backside"> <img class="elm" src="img/li.png"> </div>
+				</div>
+				<div class="box box2">
+					<div class="box backside"> <img class="elm" src="img/li.png"> </div>
+					<div class="box box3">
+						<div class="box backside"> <img class="elm" src="img/h.png"> </div>
+					</div>
+					<div class="box box4">
+						<div class="box backside"> <img class="elm" src="img/h.png"> </div>
+					</div>
+					<div class="box box5">
+						<div class="box backside"> <img class="elm" src="img/ba.png"> </div>
+					</div>
+					<div class="box box6">
+						<div class="box backside"> <img class="elm" src="img/ba.png"> </div>
+					</div>
+					<div class="box box7">
+						<div class="box backside"> <img class="elm" src="img/na.png"> </div>
+					</div>
+					<div class="box box8">
+						<div class="box backside"> <img class="elm" src="img/na.png"> </div>
+					</div>
+					<div class="box box9">
+						<div class="box backside"> <img class="elm" src="img/fr.png"> </div>
+					</div>
+					<div class="box box10">
+						<div class="box backside"> <img class="elm" src="img/fr.png"> </div>
+					</div>
+					<div class="box box11">
+						<div class="box backside"> <img class="elm" src="img/k.png"> </div>
+					</div>
+					<div class="box box12">
+						<div class="box backside"> <img class="elm" src="img/k.png"> </div>
+					</div>
+					<div class="box box13">
+						<div class="box backside"> <img class="elm" src="img/rb.png"> </div>
+					</div>
+					<div class="box box14">
+						<div class="box backside"> <img class="elm" src="img/rb.png"> </div>
+					</div>
+					<div class="box box15">
+						<div class="box backside"> <img class="elm" src="img/cs.png"> </div>
+					</div>
+					<div class="box box16">
+						<div class="box backside"> <img class="elm" src="img/cs.png"> </div>
+					</div>
+					<div class="box box17">
+						<div class="box backside"> <img class="elm" src="img/ra.png"> </div>
+					</div>
+					<div class="box box18">
+						<div class="box backside"> <img class="elm" src="img/ra.png"> </div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<!-- end of panel -->
-		<div class="container">
-
-			<div class="box box1">
-				<div class="box backside">
-					<img class="elm" src="img/li.png">
-				</div>
+		<!-- Control   -->
+		<div class="carbon tabbar">
+			<div> <span>{</span>
+				<h4>
+																												<span>Movimentos:</span>
+																												<span class="counter"> 0 </span>,
+				
+																												<span>Tempo:</span>
+																												<span class="time">00:00</span>
+																											</h4> <span>}</span>
+				<button onclick="startGame()">JOGAR</button>
 			</div>
-
-			<div class="box box2">
-				<div class="box backside">
-					<img class="elm" src="img/li.png">
-			</div>
-
-			<div class="box box3">
-				<div class="box backside">
-					<img class="elm" src="img/h.png">
-				</div>
-			</div>
-
-			<div class="box box4">
-				<div class="box backside">
-					<img class="elm" src="img/h.png">
-				</div>
-			</div>
-
-			<div class="box box5">
-				<div class="box backside">
-					<img class="elm" src="img/ba.png">
-				</div>
-			</div>
-
-			<div class="box box6">
-				<div class="box backside">
-					<img class="elm" src="img/ba.png">
-				</div>
-			</div>
-
-			<div class="box box7">
-				<div class="box backside">
-					<img class="elm" src="img/na.png">
-				</div>
-			</div>
-
-			<div class="box box8">
-				<div class="box backside">
-					<img class="elm" src="img/na.png">
-				</div>
-			</div>
-
-			<div class="box box9">
-				<div class="box backside">
-					<img class="elm" src="img/fr.png">
-				</div>
-			</div>
-
-			<div class="box box10">
-				<div class="box backside">
-					<img class="elm" src="img/fr.png">
-				</div>
-			</div>
-
-			<div class="box box11">
-				<div class="box backside">
-					<img class="elm" src="img/k.png">
-				</div>
-			</div>
-
-			<div class="box box12">
-				<div class="box backside">
-					<img class="elm" src="img/k.png">
-				</div>
-			</div>
-
-			<div class="box box13">
-				<div class="box backside">
-					<img class="elm" src="img/rb.png">
-				</div>
-			</div>
-
-			<div class="box box14">
-				<div class="box backside">
-					<img class="elm" src="img/rb.png">
-				</div>
-			</div>
-
-			<div class="box box15">
-				<div class="box backside">
-					<img class="elm" src="img/cs.png">
-				</div>
-			</div>
-
-			<div class="box box16">
-				<div class="box backside">
-					<img class="elm" src="img/cs.png">
-				</div>
-			</div>
-
-			<div class="box box17">
-				<div class="box backside">
-					<img class="elm" src="img/ra.png">
-				</div>
-			</div>
-
-			<div class="box box18">
-				<div class="box backside">
-					<img class="elm" src="img/ra.png">
-				</div>
-			</div>
-
 		</div>
+		<div class="carbon tabbar2">
+			<div> <span>{</span>
+				<h4>
+																												<span class="time">Alunos:</span>
+																												<span class="timen">> Lucas Martins, Maria, Alice, Breno, João Vitor</span>
+																											</h4> <span>}</span> </div>
 		</div>
-	</div>
-	<!-- Control   -->
-	<div class="carbon tabbar">
-
-		<div>
-			<span>{</span>
-			<h4>
-				<span>Movimentos:</span>
-				<span class="counter"> 0 </span>,
-				<span>Tempo:</span>
-				<span class="time">00:00</span>
-			</h4>
-			<span>}</span>
-
-			<button onclick="startGame()">JOGAR</button>
+		<div class="carbon tabbar3">
+			<div> <span>{</span>
+				<h4>
+																												<span class="time">Turma:</span>
+																												<span class="timen">
+																												</spanclass>> 1° Comércio
+																											</span>
+																										</h4> <span>}</span> </div>
 		</div>
-
-	</div>
-
-	<div class="carbon tabbar2">
-
-		<div>
-			<span>{</span>
-			<h4>
-				<span class="time">Alunos:</span>
-				<span class="timen">> Lucas Martins, Maria, Alice, Breno, João Vitor</span>
-
-			</h4>
-			<span>}</span>
-		</div>
-
-	</div>
-	<div class="carbon tabbar3">
-
-		<div>
-			<span>{</span>
-			<h4>
-				<span class="time">Turma:</span>
-				<span class="timen"></spanclass>> 1° Comércio</span>
-
-			</h4>
-			<span>}</span>
-		</div>
-
-	</div>
-	<!-- <p>by github.com/Luscazi</p> -->
+		<!-- <p>by github.com/Luscazi</p> -->
+	</body>
+	<!-- script -->
+	<script src="./script.js"></script>
 </body>
-<!-- script -->
-  <script  src="./script.js"></script>
 
-</body>
 </html>
